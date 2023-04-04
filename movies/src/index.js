@@ -7,7 +7,7 @@ import {Provider} from 'react-redux'
 import {BrowserRouter} from 'react-router-dom';
 import { store } from './store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL="http://localhost:4000";
+axios.defaults.baseURL="https://mernbackend-jcc7.onrender.com";    // add you backend deployment generated path from "render.com"
 root.render(
   <React.StrictMode>
   <BrowserRouter>
